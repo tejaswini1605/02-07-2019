@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="wnameth=device-wnameth, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      
+      <!--Google fonts-->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+      <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+
+    <title>Insurance Form</title>
+      
+      
+   <style>
+      
+        label {
+            font-weight:600;
+            font-size: 13px;
+            color: black;
+        }
+        
+        p {
+            font-size: 13px;
+            text-align: justify;
+        }
+        
+        
+        .form_container{
+        background-color: white;padding: 30px;border-radius: 0px;margin: auto;text-align: center;
+        color: gray;font-family: 'Montserrat', sans-serif;
+        }  
+      
+        
+        .form-control {
+            border-radius: 0px;
+            
+        }
+        
+        
+        .form-control:checked {
+            text-decoration: none;
+        }
+        
+        
+        .radio {
+            
+            word-spacing: 15px;
+            padding: 5px;
+            color: gray;
+            font-weight: 400;
+            
+            
+        }
+        
+        .label-around {
+            margin-right: 15px;
+        }
+        
+        input[type=radio]{
+            border: 2px solid black;
+        }
+     
+    </style>  
+      
+      
+      
+  </head>
+  <body class="container-fluname" style="min-height: 100vh;background-color: lightcyan;padding: 50px;" >
+    <div class="container form_container" wnameth="600px" style="">
+      
+                      <div class="row">
+
+                        <div class="col-md-7" style="text-align: left;">
+                            <h1 style="color: black;">Insurance Info</h1>
+
+                        
+                            
+           
+                               
+                        
+                                
+                        </div>
+
+                        <div class="col-md-5 " style="text-align:right;text-decoration: underline;" >
+                            <h1><b>SMILE CLINIQUE</b></h1>
+                            
+                        </div>
+
+
+
+
+
+
+                    </div>
+<hr>
+
+                    <form>
+                   <h2>Primary Insurance</h2>
+ <div class="form-group row" style="text-align: left">
+
+                              <div class="col-md-6 mb-3">
+                                <label  for="patient_name_pi" >Name of Patient :</label>
+                                 <input  type="text" placeholder="Enter Name of Patient" name="patient_name_pi" id="patient_name_pi" class="form-control probe-change " required="required"> 
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                <label for="dob_pi" class="">DOB :</label>
+                               <input  type="date" placeholder="Enter DOB" name="dob_pi" id="dob_pi" class="form-control probe-change" required="required">
+                                </div>
+
+
+                                 <div class="col-md-6 mb-3">
+                                <label  for="phone_pi" class="">Phone :</label>
+                                <input  type="tel" placeholder="Enter Phone Number" name="phone_pi" id="phone_pi" class="form-control probe-change " required="required">
+                                </div>
+
+                                  <div class="col-md-6 mb-3">
+                                <label  for="name_of_sub_pi" class="">Name of subscriber :</label>
+                               <input  type="text" placeholder="Enter name of subscriber" name="name_of_sub_pi" id="name_of_sub_pi" class="form-control probe-change  " required="required">
+                                </div>
+
+                                 <div class="col-md-6 mb-3">
+                                <label  for="dob_of_sub_pi" class="">Subscriber DOB :</label>
+                               <input  type="date" placeholder="Enter DOB" name="dob_of_sub_pi" id="dob_of_sub_pi" class="form-control probe-change  " required="required">
+                                </div>
+
+
+                                <div class="col-md-6 mb-3">
+                                <label  for="ss_ip" class="">SS# :</label>
+                            <input  type="text" placeholder="Enter SSN" name="ss_ip" id="ss_ip" class="form-control probe-change  " required="required">
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                <label  for="ss_ip_id" class="">Subscriber ID :</label>
+                            <input  type="text" placeholder="Enter Subscriber ID" name="ss_ip_id" id="ss_ip_id" class="form-control probe-change  " required="required">
+                                </div>
+
+
+                                <div class="col-md-6 mb-3">
+                                <label  for="group_ip" class="">Group :</label>
+                            <input  type="text" placeholder="Enter group" name="group_ip" id="group_ip" class="form-control probe-change  " required="required">
+                                </div>
+
+
+                                 <div class="col-md-6 mb-3">
+                                <label  for="name_of_ins_ip" class="">Name of Insurance :</label>
+                                  <input  type="text" placeholder="Enter name of insurance" name="name_of_ins_ip" id="name_of_ins_ip" class="form-control probe-change  " required="required">
+                                </div>
+
+                                  <div class="col-md-6 mb-3">
+                                <label  for="ins_ip_phone" class="">Insurance Phone :</label>
+                                <input  type="text" placeholder="Enter phone number" name="ins_ip_phone" id="ins_ip_phone" class="form-control probe-change  " required="required">
+                                </div>
+
+
+
+
+
+                                </div>
+
+
+                   <h2>Secondary Insurance</h2>
+ <div class="form-group row" style="text-align: left">
+
+                              <div class="col-md-6 mb-3">
+                                <label  for="patient_name_si" >Name of Patient :</label>
+                                 <input  type="text" placeholder="Enter Name of Patient" name="patient_name_si" id="patient_name_si" class="form-control probe-change " required="required"> 
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                <label for="dob_si" class="">DOB :</label>
+                               <input  type="date" placeholder="Enter DOB" name="dob_si" id="dob_si" class="form-control probe-change" required="required">
+                                </div>
+
+
+                                 <div class="col-md-6 mb-3">
+                                <label  for="phone_si" class="">Phone :</label>
+                                <input  type="tel" placeholder="Enter Phone Number" name="phone_si" id="phone_si" class="form-control probe-change " required="required">
+                                </div>
+
+                                  <div class="col-md-6 mb-3">
+                                <label  for="name_of_sub_si" class="">Name of subscriber :</label>
+                               <input  type="text" placeholder="Enter name of subscriber" name="name_of_sub_si" id="name_of_sub_si" class="form-control probe-change  " required="required">
+                                </div>
+
+                                 <div class="col-md-6 mb-3">
+                                <label  for="dob_of_sub_si" class="">Subscriber DOB :</label>
+                               <input  type="date" placeholder="Enter DOB" name="dob_of_sub_si" id="dob_of_sub_si" class="form-control probe-change  " required="required">
+                                </div>
+
+
+                                <div class="col-md-6 mb-3">
+                                <label  for="ss_si" class="">SS# :</label>
+                            <input  type="text" placeholder="Enter SSN" name="ss_si" id="ss_si" class="form-control probe-change  " required="required">
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                <label  for="ss_si_id" class="">Subscriber ID :</label>
+                            <input  type="text" placeholder="Enter Subscriber ID" name="ss_si_id" id="ss_si_id" class="form-control probe-change  " required="required">
+                                </div>
+
+
+                                <div class="col-md-6 mb-3">
+                                <label  for="group_si" class="">Group :</label>
+                            <input  type="text" placeholder="Enter group" name="group_si" id="group_si" class="form-control probe-change  " required="required">
+                                </div>
+
+
+                                 <div class="col-md-6 mb-3">
+                                <label  for="name_of_ins_si" class="">Name of Insurance :</label>
+                                  <input  type="text" placeholder="Enter name of insurance" name="name_of_ins_si" id="name_of_ins_si" class="form-control probe-change  " required="required">
+                                </div>
+
+                                  <div class="col-md-6 mb-3">
+                                <label  for="ins_si_phone" class="">Insurance Phone :</label>
+                                <input  type="text" placeholder="Enter phone number" name="ins_si_phone" id="ins_si_phone" class="form-control probe-change  " required="required">
+                                </div>
+
+
+
+
+
+                                </div>
+
+
+                                 
+
+
+                        
+
+
+                  
+
+                     <div class="form-group row" style="text-align: left">
+
+                             <div class="col-md-6">
+                                    <label for="email_id" class=""> Your Email:</label>
+                                    <input type="email" class="form-control probe-change" id="email_id" name="email_id" placeholder="name@email.com" required> 
+                                    </div>
+
+                                    <div class="col-md-6">
+                                    <label for="currentDate" class="">Today's Date:</label>
+                                    <input type="date" class="form-control probe-change" id="currentDate" name="today_date" placeholder=" Enter  date" required> 
+                                    </div>
+                        </div>
+
+                        <div class="form-group text-center" >       
+                                <input type="submit" value="Submit" name="submit" style=" background:#00E676;color:white;" class="btn btn-default form-control probe-change" style="">
+                              </div>
+
+
+  </form>
+
+                    </div>
+                </body>
+                </html>
+            
